@@ -1,0 +1,49 @@
+{# templates/users/index.html.twig #}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Photos</title>
+   <!-- Aquí puedes incluir tus estilos CSS si es necesario -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="{{ asset('js/users.js') }}"></script> <!-- Aquí enlazas tu archivo photos.js -->
+</head>
+<body>
+
+<h1>Users</h1>
+
+<table class="photos-table">
+   <thead>
+       <tr>
+           <th>ID</th>
+           <th>Nombre</th>
+           <th>Nombre de Usuario</th>
+           <th>Correo Electrónico</th>
+           <th>Dirección</th>
+       </tr>
+   </thead>
+   <tbody>
+       <tr>
+           <td>1</td>
+           <td>Leanne Graham</td>
+           <td>Bret</td>
+           <td>Sincero@april.biz</td>
+           <td>
+               <ul>
+                   <li>Calle: Luz Kulas</li>
+                   <li>Suite: Apto. 556</li>
+                   <li>Ciudad: Gwenborough</li>
+                   <li>Código Postal: 92998-3874</li>
+                   <li>Latitud: -37.3159</li>
+                   <li>Longitud: 81.1496</li>
+               </ul>
+           </td>
+       </tr>
+       <!-- Puedes agregar más filas aquí para más datos -->
+   </tbody>
+</table>
+
+</body>
+</html>
